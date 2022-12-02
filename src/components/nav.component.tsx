@@ -12,7 +12,7 @@ export default function NavComponent() {
 
         <>
 
-            <div style={{width: "100%", position: "sticky", top: 0, zIndex: 2, padding: 10}}>
+            <div style={{width: "100%", position: "sticky", top: 0, zIndex: 2, padding: 0}}>
 
 
                 {['sm'].map((expand) => (
