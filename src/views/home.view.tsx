@@ -4,6 +4,7 @@ import '../App.css';
 import Nav from '../components/nav.component';
 import Header from '../components/header.component'
 import About from '../components/about.component'
+import Footer from '../components/footer.component'
 import {Row,Col,Container} from 'reactstrap';
 
 function Home() {
@@ -12,6 +13,7 @@ function Home() {
             <Nav/>
             <Header/>
             <About/>
+            <Footer/>
 
         </div>
     );
