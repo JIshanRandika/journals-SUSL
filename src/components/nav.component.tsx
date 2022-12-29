@@ -18,7 +18,7 @@ export default function NavComponent() {
                 {['sm'].map((expand) => (
                     <Navbar  bg="light" expand={expand} >
                         <Container fluid>
-                            <Navbar.Brand href="#">LOGOS</Navbar.Brand>
+                            <Navbar.Brand href="/">LOGOS</Navbar.Brand>
                             <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
                             <Navbar.Offcanvas
                                 id={`offcanvasNavbar-expand-${expand}`}
@@ -35,11 +35,11 @@ export default function NavComponent() {
                                         <Nav.Link href="#action1">Home</Nav.Link>
                                         {/*<Nav.Link href="#action2">Current</Nav.Link>*/}
                                         <NavDropdown title="Editorial Board" id="navbarScrollingDropdown">
-                                            <NavDropdown.Item href="#action3">Board of Editors</NavDropdown.Item>
-                                            <NavDropdown.Item href="#action4">
+                                            <NavDropdown.Item href="/boardOfEditorsView">Board of Editors</NavDropdown.Item>
+                                            <NavDropdown.Item href="/editorAdvisoryBoard">
                                                 Editorial Advisory Board
                                             </NavDropdown.Item>
-                                            <NavDropdown.Divider />
+                                            <NavDropdown.Divider/>
                                             <NavDropdown.Item href="#action5">
                                                 Journal Structure
                                             </NavDropdown.Item>
