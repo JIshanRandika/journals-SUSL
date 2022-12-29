@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import Home from './views/home.view';
 import BoardOfEditorsView from './views/boardOfEditors.view';
+import EditorAdvisoryBoard from './views/editorAdvisoryBoard.view';
 import reportWebVitals from './reportWebVitals';
 
 import {
@@ -33,6 +34,8 @@ render(
             <Route path="/" element={<Home/>}>
             </Route>
             <Route path="/boardOfEditorsView" element={<BoardOfEditorsView/>}>
+            </Route>
+            <Route path="/editorAdvisoryBoard" element={<EditorAdvisoryBoard/>}>
             </Route>
 
         </Routes>
