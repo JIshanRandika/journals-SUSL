@@ -22,8 +22,8 @@ export default class HeaderComponent extends Component {
                                 <Carousel/>
                             </Col>
                             <Col md="6" xs="12">
-                                <div style={{fontSize:90,fontWeight:'bold',padding:100,color:'black',fontFamily:'Itim'}}>
-                                    Advances In Technology
+                                <div style={{fontSize:50,fontWeight:'bold',padding:100,color:'black',fontFamily:'Itim'}}>
+                                    Sri Lanka Journal of Humanities and Language Studies
                                 </div>
                             </Col>
                         </Row>
