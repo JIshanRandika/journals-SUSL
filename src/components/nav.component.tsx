@@ -32,16 +32,29 @@ export default function NavComponent() {
                                 </Offcanvas.Header>
                                 <Offcanvas.Body>
                                     <Nav className="justify-content-end flex-grow-1 pe-3">
-                                        <Nav.Link href="#action1">Home</Nav.Link>
+                                        <Nav.Link href="/">Home</Nav.Link>
                                         {/*<Nav.Link href="#action2">Current</Nav.Link>*/}
                                         <NavDropdown title="Editorial Board" id="navbarScrollingDropdown">
-                                            <NavDropdown.Item href="/boardOfEditorsView">Board of Editors</NavDropdown.Item>
+                                            <NavDropdown.Item href="/boardOfEditorsView">
+                                                Board of Editors
+                                            </NavDropdown.Item>
                                             <NavDropdown.Item href="/editorAdvisoryBoard">
                                                 Editorial Advisory Board
                                             </NavDropdown.Item>
                                             <NavDropdown.Divider/>
-                                            <NavDropdown.Item href="#action5">
+                                            <NavDropdown.Item href="/journalStructure">
                                                 Journal Structure
+                                            </NavDropdown.Item>
+                                        </NavDropdown>
+                                        <NavDropdown title="Author Guideline" id="navbarScrollingDropdown">
+                                            <NavDropdown.Item href="/submissionPreparationChecklist">
+                                                Submission Preparation Checklist
+                                            </NavDropdown.Item>
+                                            <NavDropdown.Item href="/authorGuidelines">
+                                                Author Guidelines
+                                            </NavDropdown.Item>
+                                            <NavDropdown.Item href="/publicationEthics">
+                                                Publication Ethics
                                             </NavDropdown.Item>
                                         </NavDropdown>
                                         <Nav.Link href="#action2">Submission</Nav.Link>
