@@ -10,7 +10,7 @@ import {Table} from "react-bootstrap";
 
 function boardOfEditorsView() {
     return (
-        <div className="App">
+        <div className="BoardOfEditorsView">
             <Nav/>
             <div style={{position:'relative',background:'#520103'}} >
                 <Row>
@@ -136,7 +136,7 @@ function boardOfEditorsView() {
             </div>
 
             <div >
-                <Container style={{paddingLeft: '10%', paddingRight: '10%',marginTop:80}}>
+                <Container style={{paddingLeft: '10%', paddingRight: '10%',marginTop:80, paddingBottom:'5%'}}>
                     <Table striped bordered hover size="sm">
                         <thead>
 
