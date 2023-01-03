@@ -9,6 +9,7 @@ import JournalStructure from './views/journalStructure.view';
 import SubmissionPreparationChecklist from './views/submissionPreparationChecklist.view';
 import AuthorGuidelines from './views/authorGuidelines.view';
 import PublicationEthics from './views/publicationEthics.view';
+import Login from './views/login.view';
 import reportWebVitals from './reportWebVitals';
 
 import {
@@ -48,6 +49,8 @@ render(
             <Route path="/authorGuidelines" element={<AuthorGuidelines/>}>
             </Route>
             <Route path="/publicationEthics" element={<PublicationEthics/>}>
+            </Route>
+            <Route path="/login" element={<Login/>}>
             </Route>
 
         </Routes>

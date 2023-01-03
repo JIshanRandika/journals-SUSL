@@ -57,7 +57,11 @@ export default function NavComponent() {
                                                 Publication Ethics
                                             </NavDropdown.Item>
                                         </NavDropdown>
-                                        <Nav.Link href="#action2">Submission</Nav.Link>
+                                        <NavDropdown title="Submission" id="navbarScrollingDropdown">
+                                            <NavDropdown.Item href="/login">
+                                                Submit
+                                            </NavDropdown.Item>
+                                        </NavDropdown>
                                         <Nav.Link href="#action2">Announcement</Nav.Link>
                                         <Nav.Link href="#action2">Contact</Nav.Link>
 
