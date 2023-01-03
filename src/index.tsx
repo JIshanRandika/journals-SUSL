@@ -10,6 +10,7 @@ import SubmissionPreparationChecklist from './views/submissionPreparationCheckli
 import AuthorGuidelines from './views/authorGuidelines.view';
 import PublicationEthics from './views/publicationEthics.view';
 import Login from './views/login.view';
+import MySubmission from './views/mySubmission.view';
 import reportWebVitals from './reportWebVitals';
 
 import {
@@ -51,6 +52,8 @@ render(
             <Route path="/publicationEthics" element={<PublicationEthics/>}>
             </Route>
             <Route path="/login" element={<Login/>}>
+            </Route>
+            <Route path="/mySubmission" element={<MySubmission/>}>
             </Route>
 
         </Routes>

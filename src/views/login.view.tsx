@@ -33,22 +33,22 @@ function Home() {
                             </Form.Group>
                             <Row style={{display:"flex",justifyContent:"center"}}>
                                 <Col style={{display:"flex",justifyContent:"center"}}>
-                                    <Button style={{background:"#520103", border:"none"}}  type="submit">
+                                    <Button href='/mySubmission' style={{background:"#520103", border:"none"}}  type="submit">
                                         Author Login
                                     </Button>
                                 </Col>
                                 <Col style={{display:"flex",justifyContent:"center"}}>
-                                    <Button style={{background:"#520103", border:"none"}} type="submit">
+                                    <Button href='/mySubmission' style={{background:"#520103", border:"none"}} type="submit">
                                         Reviewer Login
                                     </Button>
                                 </Col>
                                 <Col>
-                                    <Button style={{background:"#520103", border:"none"}} type="submit">
+                                    <Button href='/mySubmission' style={{background:"#520103", border:"none"}} type="submit">
                                         Editor Login
                                     </Button>
                                 </Col>
                                 <Col>
-                                    <Button style={{background:"#520103", border:"none"}} type="submit">
+                                    <Button href='/mySubmission' style={{background:"#520103", border:"none"}} type="submit">
                                         Publisher Login
                                     </Button>
                                 </Col>
