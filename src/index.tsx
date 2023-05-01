@@ -11,6 +11,7 @@ import AuthorGuidelines from './views/authorGuidelines.view';
 import PublicationEthics from './views/publicationEthics.view';
 import Login from './views/login.view';
 import MySubmission from './views/mySubmission.view';
+import NewSubmission from './views/newSubmission.view';
 import reportWebVitals from './reportWebVitals';
 
 import {
@@ -54,6 +55,8 @@ render(
             <Route path="/login" element={<Login/>}>
             </Route>
             <Route path="/mySubmission" element={<MySubmission/>}>
+            </Route>
+            <Route path="/newSubmission" element={<NewSubmission/>}>
             </Route>
 
         </Routes>

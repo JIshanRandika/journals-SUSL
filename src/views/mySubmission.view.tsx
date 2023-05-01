@@ -70,7 +70,7 @@ function MySubmission() {
             <Row>
                 <Container style={{paddingLeft: '10%', paddingRight: '10%',marginTop:40}}>
                     <div style={{marginBottom:10}}>
-                        <Button href='/mySubmission' style={{background:"#520103", border:"none"}} type="submit">
+                        <Button href='/newSubmission' style={{background:"#520103", border:"none"}} type="submit">
                             New Submission
                         </Button>
                     </div>
