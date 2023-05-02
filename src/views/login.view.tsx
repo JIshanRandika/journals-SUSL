@@ -5,6 +5,7 @@ import Nav from '../components/nav.component';
 import Footer from '../components/footer.component'
 import {Row,Col,Container} from 'reactstrap';
 import {Button, Card, Form} from "react-bootstrap";
+import {Colors} from '../constants/colors'
 
 function Home() {
     return (
@@ -33,22 +34,22 @@ function Home() {
                             </Form.Group>
                             <Row style={{display:"flex",justifyContent:"center"}}>
                                 <Col style={{display:"flex",justifyContent:"center"}}>
-                                    <Button href='/mySubmission' style={{background:"#520103", border:"none"}}  type="submit">
+                                    <Button href='/mySubmission' style={{background:Colors.colorA, border:"none"}}  type="submit">
                                         Author Login
                                     </Button>
                                 </Col>
                                 <Col style={{display:"flex",justifyContent:"center"}}>
-                                    <Button href='/mySubmission' style={{background:"#520103", border:"none"}} type="submit">
+                                    <Button href='/mySubmission' style={{background:Colors.colorA, border:"none"}} type="submit">
                                         Reviewer Login
                                     </Button>
                                 </Col>
                                 <Col>
-                                    <Button href='/mySubmission' style={{background:"#520103", border:"none"}} type="submit">
+                                    <Button href='/mySubmission' style={{background:Colors.colorA, border:"none"}} type="submit">
                                         Editor Login
                                     </Button>
                                 </Col>
                                 <Col>
-                                    <Button href='/mySubmission' style={{background:"#520103", border:"none"}} type="submit">
+                                    <Button href='/mySubmission' style={{background:Colors.colorA, border:"none"}} type="submit">
                                         Publisher Login
                                     </Button>
                                 </Col>

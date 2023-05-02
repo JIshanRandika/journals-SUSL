@@ -12,6 +12,7 @@ import PublicationEthics from './views/publicationEthics.view';
 import Login from './views/login.view';
 import MySubmission from './views/mySubmission.view';
 import NewSubmission from './views/newSubmission.view';
+import CurrentIssue from './views/currentIssue.view';
 import reportWebVitals from './reportWebVitals';
 
 import {
@@ -57,6 +58,8 @@ render(
             <Route path="/mySubmission" element={<MySubmission/>}>
             </Route>
             <Route path="/newSubmission" element={<NewSubmission/>}>
+            </Route>
+            <Route path="/currentIssue" element={<CurrentIssue/>}>
             </Route>
 
         </Routes>

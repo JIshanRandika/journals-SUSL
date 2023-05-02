@@ -7,13 +7,14 @@ import About from '../components/about.component'
 import Footer from '../components/footer.component'
 import {Row,Col,Container} from 'reactstrap';
 import {Table} from "react-bootstrap";
+import {Colors} from '../constants/colors'
 
 function journalStructure() {
     return (
         <div className="App">
             <Nav/>
 
-            <div style={{position:'relative',background:'#520103'}} >
+            <div style={{position:'relative',background:Colors.colorA}} >
                 <Row>
                     <Container style={{paddingLeft: '10%', paddingRight: '10%',marginTop:80}}>
                         <div style={{

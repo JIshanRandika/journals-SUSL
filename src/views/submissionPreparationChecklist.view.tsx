@@ -4,12 +4,13 @@ import '../App.css';
 import Nav from '../components/nav.component';
 import Footer from '../components/footer.component'
 import {Row,Col,Container} from 'reactstrap';
+import {Colors} from '../constants/colors'
 
 function submissionPreparationChecklist() {
     return (
         <div className="SubmissionPreparationChecklist">
             <Nav/>
-            <div style={{position:'relative',background:'#520103'}} >
+            <div style={{position:'relative',background:Colors.colorA}} >
                 <Row style={{margin: 0}}>
                     <Container style={{paddingLeft: '15%', paddingRight: '15%'}}>
                         <div style={{

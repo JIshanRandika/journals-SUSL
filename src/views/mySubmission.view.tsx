@@ -9,6 +9,7 @@ import Tab from '@mui/material/Tab';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 import {Button} from "react-bootstrap";
+import {Colors} from '../constants/colors'
 
 interface TabPanelProps {
     children?: React.ReactNode;
@@ -52,7 +53,7 @@ function MySubmission() {
     return (
         <div className="MySubmission">
             <Nav/>
-            <div style={{position:'relative',background:'#520103'}} >
+            <div style={{position:'relative',background:Colors.colorA}} >
                 <Row>
                     <Container style={{paddingLeft: '10%', paddingRight: '10%',marginTop:80, marginBottom:25}}>
                         <div style={{
