@@ -11,7 +11,7 @@ function submissionPreparationChecklist() {
         <div className="SubmissionPreparationChecklist">
             <Nav/>
             <div style={{position:'relative',background:Colors.colorA}} >
-                <Row style={{margin: 0}}>
+                <Row data-aos="fade-up" data-aos-offset="100" style={{margin: 0}}>
                     <Container style={{paddingLeft: '15%', paddingRight: '15%'}}>
                         <div style={{
                             fontSize: 18,
@@ -28,7 +28,7 @@ function submissionPreparationChecklist() {
                 </Row>
             </div>
             <div>
-                <Row style={{paddingBottom: 80}}>
+                <Row data-aos="fade-up" data-aos-offset="100" style={{paddingBottom: 80}}>
                     <Container style={{paddingLeft: '15%', paddingRight: '15%'}}>
                         <div style={{
                             fontSize: 18,

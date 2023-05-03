@@ -13,6 +13,8 @@ import Login from './views/login.view';
 import MySubmission from './views/mySubmission.view';
 import NewSubmission from './views/newSubmission.view';
 import CurrentIssue from './views/currentIssue.view';
+import AboutUs from './views/aboutUs.view';
+import ContactUs from './views/contactUs.view';
 import reportWebVitals from './reportWebVitals';
 
 import {
@@ -60,6 +62,10 @@ render(
             <Route path="/newSubmission" element={<NewSubmission/>}>
             </Route>
             <Route path="/currentIssue" element={<CurrentIssue/>}>
+            </Route>
+            <Route path="/aboutUs" element={<AboutUs/>}>
+            </Route>
+            <Route path="/contactUs" element={<ContactUs/>}>
             </Route>
 
         </Routes>

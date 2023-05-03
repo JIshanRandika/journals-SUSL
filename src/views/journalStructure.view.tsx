@@ -15,7 +15,7 @@ function journalStructure() {
             <Nav/>
 
             <div style={{position:'relative',background:Colors.colorA}} >
-                <Row>
+                <Row data-aos="fade-up" data-aos-offset="100">
                     <Container style={{paddingLeft: '10%', paddingRight: '10%',marginTop:80}}>
                         <div style={{
                             fontSize: 60,
@@ -28,7 +28,7 @@ function journalStructure() {
                         </div>
                     </Container>
                 </Row>
-                <Row style={{margin: 0}}>
+                <Row data-aos="fade-up" data-aos-offset="100" style={{margin: 0}}>
                     <Container style={{paddingLeft: '10%', paddingRight: '10%'}}>
                         <div style={{
                             fontSize: 18,
@@ -57,7 +57,7 @@ function journalStructure() {
                 </Row>
             </div>
             <div >
-                <Container style={{paddingLeft: '10%', paddingRight: '10%',marginTop:80, paddingBottom:'5%',textAlign:'left'}}>
+                <Container data-aos="fade-up" data-aos-offset="100" style={{paddingLeft: '10%', paddingRight: '10%',marginTop:80, paddingBottom:'5%',textAlign:'left'}}>
                     <Table striped bordered hover size="sm">
                         <thead>
 

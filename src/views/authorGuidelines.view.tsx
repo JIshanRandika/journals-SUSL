@@ -11,9 +11,9 @@ function Home() {
         <div className="App">
             <Nav/>
             <div style={{position:'relative',background:Colors.colorA}} >
-                <Row style={{margin: 0}}>
+                <Row data-aos="fade-up" data-aos-offset="100" style={{margin: 0}}>
                     <Container style={{paddingLeft: '15%', paddingRight: '15%'}}>
-                        <div style={{
+                        <div  style={{
                             fontSize: 18,
                             textAlign: 'left',
                             wordSpacing: 3,
@@ -30,7 +30,7 @@ function Home() {
                 </Row>
             </div>
             <div style={{position:'relative'}} >
-                <Row style={{margin: 0}}>
+                <Row data-aos="fade-up" data-aos-offset="100" style={{margin: 0}}>
                     <Container style={{paddingLeft: '15%', paddingRight: '15%'}}>
                         <div style={{
                             fontSize: 18,

@@ -9,7 +9,7 @@ export default class FooterComponent extends Component {
 
             <div style={{position: 'relative', bottom: 0, width: '100%'}}>
                 <div style={{
-                    backgroundColor: '#000000', padding: 10, marginTop: 1,
+                    backgroundColor: '#6d6d6d', padding: 10, marginTop: 1,
                 }}>
                     <Row style={{margin: 0}}>
                         <Container style={{paddingLeft: '5%', paddingRight: '15%'}}>
