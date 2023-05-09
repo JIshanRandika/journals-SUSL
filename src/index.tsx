@@ -16,6 +16,7 @@ import CurrentIssue from './views/currentIssue.view';
 import AboutUs from './views/aboutUs.view';
 import ContactUs from './views/contactUs.view';
 import reportWebVitals from './reportWebVitals';
+import Nav from './components/nav.component';
 
 import {
     BrowserRouter,
@@ -39,7 +40,9 @@ import {render} from "react-dom";
 // reportWebVitals();
 
 render(
+
     <BrowserRouter>
+        <Nav/>
         <Routes>
             <Route path="/" element={<Home/>}>
             </Route>

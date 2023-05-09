@@ -18,7 +18,7 @@ function NewSubmission() {
 
     return (
         <div className="NewSubmission">
-            <Nav/>
+            {/*<Nav/>*/}
 
             {/*<MultiStep activeStep={1} showNavigation={true} steps={steps}/>*/}
 

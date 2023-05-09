@@ -10,7 +10,7 @@ import {Colors} from '../constants/colors'
 function Home() {
     return (
         <div className="App">
-            <Nav/>
+            {/*<Nav/>*/}
 
             <div style={{margin:"10%"}}>
                 <Card className="text-center">

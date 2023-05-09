@@ -52,7 +52,7 @@ function MySubmission() {
     };
     return (
         <div className="MySubmission">
-            <Nav/>
+            {/*<Nav/>*/}
             <div style={{position:'relative',background:Colors.colorA}} >
                 <Row>
                     <Container style={{paddingLeft: '10%', paddingRight: '10%',marginTop:80, marginBottom:25}}>

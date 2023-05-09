@@ -9,7 +9,7 @@ import {Colors} from '../constants/colors'
 function Home() {
     return (
         <div className="App">
-            <Nav/>
+            {/*<Nav/>*/}
             <div style={{position:'relative',background:Colors.colorA}} >
                 <Row data-aos="fade-up" data-aos-offset="100" style={{margin: 0}}>
                     <Container style={{paddingLeft: '15%', paddingRight: '15%'}}>

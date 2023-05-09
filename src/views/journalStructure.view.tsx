@@ -12,7 +12,7 @@ import {Colors} from '../constants/colors'
 function journalStructure() {
     return (
         <div className="App">
-            <Nav/>
+            {/*<Nav/>*/}
 
             <div style={{position:'relative',background:Colors.colorA}} >
                 <Row data-aos="fade-up" data-aos-offset="100">

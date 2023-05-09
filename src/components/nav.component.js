@@ -8,7 +8,13 @@ import '../constants/styles.css'
 export default function NavComponent() {
 
 
-
+    const [isActive, setActive] = useState('home');
+    const handleClick = (param) => {
+        console.log(`Link clicked with param: ${param}`);
+        setActive(param);
+    }
+    // @ts-ignore
+    // @ts-ignore
     return (
 
         <>
@@ -34,55 +40,55 @@ export default function NavComponent() {
                                     </Offcanvas.Title>
                                 </Offcanvas.Header>
                                 <Offcanvas.Body>
-                                    <Nav className="justify-content-end flex-grow-1 pe-3">
+                                    <Nav className="justify-content-end flex-grow-1 pe-3 homeBtn">
                                         <Nav.Link style={{fontWeight:"bold"}} >
-                                            <Link to="/" style={{textDecoration:'none',color:"#ffffff"}}>
+                                            <Link onClick={() => handleClick('home')} to="/" style={{textDecoration:'none',color:isActive=='home'?'gray':'white'}}>
                                                 Home
                                             </Link>
                                         </Nav.Link>
                                         {/*<Nav.Link href="#action2">Current</Nav.Link>*/}
                                         <NavDropdown style={{fontWeight:"bold",color:"#ffffff"}} title="Issues" id="navbarScrollingDropdown">
                                             <NavDropdown.Item>
-                                                <Link to="/currentIssue" style={{textDecoration:'none',color:"#524930"}}>
+                                                <Link onClick={() => handleClick('a')} to="/currentIssue" style={{textDecoration:'none',color:"#524930"}}>
                                                     Current Issue
                                                 </Link>
                                             </NavDropdown.Item>
                                         </NavDropdown>
                                         <NavDropdown style={{fontWeight:"bold"}} color='white' title="Editorial Board" id="navbarScrollingDropdown">
                                             <NavDropdown.Item>
-                                                <Link to="/boardOfEditorsView" style={{textDecoration:'none',color:"#524930"}}>
+                                                <Link onClick={() => handleClick('a')} to="/boardOfEditorsView" style={{textDecoration:'none',color:"#524930"}}>
                                                     Board of Editors
                                                 </Link>
                                             </NavDropdown.Item>
                                             <NavDropdown.Item>
-                                                <Link to="/editorAdvisoryBoard" style={{textDecoration:'none',color:"#524930"}}>
+                                                <Link onClick={() => handleClick('a')} to="/editorAdvisoryBoard" style={{textDecoration:'none',color:"#524930"}}>
                                                     Editorial Advisory Board
                                                 </Link>
 
                                             </NavDropdown.Item>
                                             <NavDropdown.Divider/>
                                             <NavDropdown.Item >
-                                                <Link to="/journalStructure" style={{textDecoration:'none',color:"#524930"}}>
+                                                <Link onClick={() => handleClick('a')} to="/journalStructure" style={{textDecoration:'none',color:"#524930"}}>
                                                     Journal Structure
                                                 </Link>
 
                                             </NavDropdown.Item>
                                         </NavDropdown>
-                                        <NavDropdown style={{fontWeight:"bold"}} title="Author Guideline" id="navbarScrollingDropdown">
+                                        <NavDropdown style={{fontWeight:"bold",color:'#ffffff'}} title="Author Guideline" id="navbarScrollingDropdown">
                                             <NavDropdown.Item>
-                                                <Link to="/submissionPreparationChecklist" style={{textDecoration:'none',color:"#524930"}}>
+                                                <Link onClick={() => handleClick('a')} to="/submissionPreparationChecklist" style={{textDecoration:'none',color:"#524930"}}>
                                                     Submission Preparation Checklist
                                                 </Link>
 
                                             </NavDropdown.Item>
                                             <NavDropdown.Item href="/authorGuidelines">
-                                                <Link to="/authorGuidelines" style={{textDecoration:'none',color:"#524930"}}>
+                                                <Link onClick={() => handleClick('a')} to="/authorGuidelines" style={{textDecoration:'none',color:"#524930"}}>
                                                     Author Guidelines
                                                 </Link>
 
                                             </NavDropdown.Item>
                                             <NavDropdown.Item>
-                                                <Link to="/publicationEthics" style={{textDecoration:'none',color:"#524930"}}>
+                                                <Link onClick={() => handleClick('a')} to="/publicationEthics" style={{textDecoration:'none',color:"#524930"}}>
                                                     Publication Ethics
                                                 </Link>
 
@@ -94,13 +100,14 @@ export default function NavComponent() {
                                         {/*    </NavDropdown.Item>*/}
                                         {/*</NavDropdown>*/}
                                         {/*<Nav.Link href="#action2">Announcement</Nav.Link>*/}
-                                        <Nav.Link style={{fontWeight:"bold",color:"#ffffff"}}>
-                                            <Link to="/aboutUs" style={{textDecoration:'none',color:"#ffffff"}}>
+                                        <Nav.Link style={{fontWeight:"bold"}}>
+
+                                            <Link onClick={() => handleClick('about')}  to="/aboutUs"  style={{textDecoration:'none',color:isActive=='about'?'gray':'white'}}>
                                                 About
                                             </Link>
                                         </Nav.Link>
                                         <Nav.Link style={{fontWeight:"bold"}}>
-                                            <Link to="/contactUs" style={{textDecoration:'none',color:"#ffffff"}}>
+                                            <Link to="/contactUs" onClick={() => handleClick('contact')} style={{textDecoration:'none',color:isActive=='contact'?'gray':'white'}}>
                                                 Contact Us
                                             </Link>
                                         </Nav.Link>

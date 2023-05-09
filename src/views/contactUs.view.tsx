@@ -12,7 +12,7 @@ import {Colors} from '../constants/colors'
 function contactUsView() {
     return (
         <div className="ContactUsView">
-            <Nav/>
+            {/*<Nav/>*/}
             <div style={{position:'relative',background:Colors.colorA}} >
                 <Row data-aos="fade-up" data-aos-offset="100">
                     <Container style={{paddingLeft: '10%', paddingRight: '10%',marginTop:80,paddingBottom:40}}>

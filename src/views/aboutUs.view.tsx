@@ -10,7 +10,7 @@ import {Row,Col,Container} from 'reactstrap';
 function aboutUs() {
     return (
         <div className="App">
-            <Nav/>
+            {/*<Nav/>*/}
             {/*<Header/>*/}
             <About/>
             <Footer/>
