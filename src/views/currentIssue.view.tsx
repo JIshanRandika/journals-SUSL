@@ -21,7 +21,7 @@ function currentIssue() {
                     </Col>
                     <Col md="5" xs="12" style={{background:"white"}}>
                         <Container>
-                            <Row>
+                            <Row style={{paddingTop: 80}}>
                                 <Articles/>
                             </Row>
                         </Container>
