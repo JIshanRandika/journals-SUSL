@@ -53,50 +53,57 @@ function editorAdvisoryBoard() {
                         </tr>
                         </thead>
                         <tbody>
+
+                        <tr>
+                            <td>Prof. Cen Haibing</td>
+                            <td>Dean, School of Foreign Languages, Huanggang Normal University, China</td>
+                        </tr>
+                        <tr>
+                            <td>Prof. Zheng Youjie</td>
+                            <td>Vice Dean, School of Foreign Languages , Huanggang Normal University, China</td>
+                        </tr>
+                        <tr>
+                            <td>Prof. Indika Liyanage </td>
+                            <td>Faculty of Arts and Education, Deakin University, Australia</td>
+                        </tr>
+
                         <tr>
                             <td>Prof. Rajiva Wijesinha</td>
                             <td>Emeritus Professor in Languages, Sabaragamuwa University of Sri Lanka</td>
-                        </tr>
-                        <tr>
-                            <td>Professor. Cen Haibing</td>
-                            <td>Dean, School of Foreign Languages</td>
-                        </tr>
-                        <tr>
-                            <td>Professor. Zheng Youjie</td>
-                            <td>Vice Dean, School of Foreign Languages </td>
                         </tr>
                         <tr>
                             <td>Prof. Hiniduma Sunil Senevi </td>
                             <td>Dept. of Languages, Sabaragamuwa University of Sri Lanka</td>
                         </tr>
                         <tr>
-                            <td>Professor. WM Ariyaratne</td>
+                            <td>Prof. WM Ariyaratne</td>
                             <td>Dept. of Languages, Sabaragamuwa University of Sri Lanka</td>
                         </tr>
                         <tr>
-                            <td>Professor. RGS Rathnayake</td>
+                            <td>Prof. RGS Rathnayake</td>
                             <td>Dept. of Languages, Sabaragamuwa University of Sri Lanka</td>
                         </tr>
                         <tr>
-                            <td>Profesor R A D P Weerasekara</td>
+                            <td>Prof. RADP Weerasekara</td>
                             <td>Dept. of Languages, Sabaragamuwa University of Sri Lanka</td>
                         </tr>
                         <tr>
-                            <td>Prof. Indika Liyanage </td>
-                            <td>School of Education, Deakin University, Australia</td>
+                            <td>Prof. Upul Hewawithanagamage</td>
+                            <td>Dept. of Hindi, University of Kelaniya</td>
                         </tr>
                         <tr>
-                            <td>Prof. Upul Hewawithanagamawe</td>
-                            <td>Department of Hindi, University of Kelaniya</td>
+                            <td>Prof. V Maheswaran</td>
+                            <td>Dept. of Tamil, University of Peradeniya</td>
                         </tr>
                         <tr>
-                            <td>Professor V Maheswaran</td>
-                            <td>Department of Tamil, University of Peradeniya</td>
-                        </tr>
-                        <tr>
-                            <td>Professor T. Manoharan</td>
+                            <td>Prof. T Manoharan</td>
                             <td>Retired Professor, University of Peradeniya</td>
                         </tr>
+                        <tr>
+                            <td>Prof. Dilrukshi Rathnayake</td>
+                            <td>Dept. of Foreign Languages, University of Kelaniya</td>
+                        </tr>
+
                         <tr>
                             <td>Dr. JKC Dissanayake</td>
                             <td>Dept. of Languages, Sabaragamuwa University of Sri Lanka</td>
@@ -105,13 +112,10 @@ function editorAdvisoryBoard() {
                             <td>Dr. Nirosha Paranavithana</td>
                             <td>Dept. of Languages, Sabaragamuwa University of Sri Lanka</td>
                         </tr>
+
                         <tr>
-                            <td>Dr. Dilrukshi Rathnayake</td>
-                            <td>Department of Foreign Languages, University of Kelaniya</td>
-                        </tr>
-                        <tr>
-                            <td>Dr. S K Kannathas</td>
-                            <td>Department of Translation Studies, University of Jaffna</td>
+                            <td>Dr. SK Kannathas</td>
+                            <td>Dept. of Translation Studies, University of Jaffna</td>
                         </tr>
 
                         </tbody>

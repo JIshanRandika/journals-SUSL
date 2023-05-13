@@ -18,7 +18,7 @@ export default class FooterComponent extends Component {
                                 fontWeight: 'bold',
                                 color: 'white'
                             }}>
-                                @ 2022 Copyright - Sabaragamuwa University of Sri Lanka - All
+                                @ 2023 Copyright - Sabaragamuwa University of Sri Lanka - All
                                 rights recerved
                             </div>
                         </Container>

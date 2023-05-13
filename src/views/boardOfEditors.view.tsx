@@ -55,27 +55,31 @@ function boardOfEditorsView() {
                     </thead>
                     <tbody>
                     <tr>
-                        <td>Professor Hiniduma Sunil Senevi</td>
+                        <td>Prof. Hiniduma Sunil Senevi</td>
                         <td>Dept. of Languages, Sabaragamuwa University of Sri Lanka</td>
                     </tr>
                     <tr>
-                        <td>Professor. WM Ariyaratne</td>
+                        <td>Prof. WM Ariyaratne</td>
                         <td>Dept. of Languages, Sabaragamuwa University of Sri Lanka</td>
                     </tr>
                     <tr>
-                        <td>Professor. RGS Rathnayake</td>
+                        <td>Prof. RGS Rathnayake</td>
                         <td>Dept. of Languages, Sabaragamuwa University of Sri Lanka</td>
                     </tr>
                     <tr>
-                        <td>Profesor R A D P Weerasekara</td>
+                        <td>Prof. RADP Weerasekara</td>
                         <td>Dept. of Languages, Sabaragamuwa University of Sri Lanka</td>
                     </tr>
                     <tr>
-                        <td>Professor V Maheswaran</td>
-                        <td>Department of Tamil, University of Peradeniya</td>
+                        <td>Prof. V Maheswaran</td>
+                        <td>Dept. of Tamil, University of Peradeniya</td>
                     </tr>
                     <tr>
-                        <td>Dr. J K C Dissanayake</td>
+                        <td>Prof. Dilrukshi Rathnayake</td>
+                        <td>Dept. of Foreign Languages, University of Kelaniya</td>
+                    </tr>
+                    <tr>
+                        <td>Dr. JKC Dissanayake</td>
                         <td>Dept. of Languages, Sabaragamuwa University of Sri Lanka</td>
                     </tr>
                     <tr>
@@ -86,24 +90,25 @@ function boardOfEditorsView() {
                         <td>Dr. Nirosha Paranavithana</td>
                         <td>Dept. of Languages, Sabaragamuwa University of Sri Lanka</td>
                     </tr>
+
                     <tr>
-                        <td>Dr. Dilrukshi Rathnayake</td>
-                        <td>Department of Foreign Languages, University of Kelaniya</td>
-                    </tr>
-                    <tr>
-                        <td>Dr. H A M A Hapugoda</td>
+                        <td>Dr. HAMA Hapugoda</td>
                         <td>Dept. of Languages, Sabaragamuwa University of Sri Lanka</td>
                     </tr>
                     <tr>
-                        <td>Dr. K W R K H Abeywickrama</td>
+                        <td>Dr. KWRKH Abeywickrama</td>
                         <td>Dept. of Languages, Sabaragamuwa University of Sri Lanka</td>
                     </tr>
                     <tr>
-                        <td>Dr. K S N Prasangani</td>
+                        <td>Dr. KSN Prasangani</td>
                         <td>Dept. of Languages, Sabaragamuwa University of Sri Lanka</td>
                     </tr>
                     <tr>
-                        <td>Dr. S K Kannathas</td>
+                        <td>Dr. SK Kannathas</td>
+                        <td>Dept. of Translation Studies, University of Jaffna</td>
+                    </tr>
+                    <tr>
+                        <td>Dr. DANSY Dassanayake </td>
                         <td>Dept. of Languages, Sabaragamuwa University of Sri Lanka</td>
                     </tr>
                     <tr>
@@ -114,20 +119,17 @@ function boardOfEditorsView() {
                         <td>Mr. Mahinda Pathirana</td>
                         <td>Dept. of Languages, Sabaragamuwa University of Sri Lanka</td>
                     </tr>
+
                     <tr>
-                        <td>Dr. D.A.N.S.Y. Dassanayake </td>
+                        <td>Ms. MAD De Silva Weerakkody</td>
                         <td>Dept. of Languages, Sabaragamuwa University of Sri Lanka</td>
                     </tr>
                     <tr>
-                        <td>Mrs. M A D De Silva Weerakkody</td>
+                        <td>Ms. SPSP  Weerasinghe</td>
                         <td>Dept. of Languages, Sabaragamuwa University of Sri Lanka</td>
                     </tr>
                     <tr>
-                        <td>Ms. S P S P  Weerasinghe</td>
-                        <td>Dept. of Languages, Sabaragamuwa University of Sri Lanka</td>
-                    </tr>
-                    <tr>
-                        <td>Ms. P D M Muthumali</td>
+                        <td>Ms. PDM Muthumali</td>
                         <td>Dept. of Languages, Sabaragamuwa University of Sri Lanka</td>
                     </tr>
 
@@ -148,7 +150,7 @@ function boardOfEditorsView() {
                             <td>
                                 Ms. SPSP Weerasinghe
                                 <br/>
-                                Ms. Malsha Muthumali
+                                Ms. PDM Muthumali
                                 <br/>
                                 Ms. Madhuka Hansani
                             </td>
@@ -162,11 +164,11 @@ function boardOfEditorsView() {
                                 <br/>
                                 Tamil - Ms. Sudarshani Nagarathnam
                                 <br/>
-                                Japanese - Ms. Malsha Muthumali
+                                Japanese - Ms. PDM Muthumali
                                 <br/>
-                                Chinese - Mrs. R A R P Maduwanthi
+                                Chinese - Mr. RARP Maduwanthi
                                 <br/>
-                                Hindi - Mrs. W M Sewwandi
+                                Hindi - Ms. WM Sewwandi
                                 <br/>
                                 German - Ms. Hansi Dissanayake
                                 <br/>

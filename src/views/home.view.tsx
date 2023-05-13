@@ -26,6 +26,7 @@ import logo from './logo.svg';
 import '../App.css';
 import Nav from '../components/nav.component';
 import Footer from '../components/footer.component'
+import Articles from '../components/articles.component'
 import {Row,Col,Container} from 'reactstrap';
 import {Table} from "react-bootstrap";
 import {Colors} from '../constants/colors'
@@ -171,145 +172,8 @@ function Home() {
                     <Col md="4" xs="12" style={{alignItems:'center'}}>
                     </Col>
                     <Col md="5" xs="12" style={{alignItems:'center'}}>
-                        <Container>
-                            <div data-aos="fade-up" data-aos-offset="100" style={{
-                                fontSize: 25,
-                                textAlign: 'left',
-                                wordSpacing: 3,
-                                paddingTop: 5,
-                                paddingBottom: 15,
-                                color: 'black',
-                                fontWeight:"bold"
-                                // marginTop:10
-                                // fontFamily:'Itim',
-                            }}>
-                                Volume I | Issue I
-                            </div>
-                            <hr data-aos="fade-up" data-aos-offset="100" />
-                            <div data-aos="fade-up" data-aos-offset="100" style={{
-                                fontSize: 15,
-                                textAlign: 'left',
-                                wordSpacing: 3,
-                                paddingTop: 5,
-                                paddingBottom: 0,
-                                color: 'black',
-                                fontWeight:"bold"
-                                // marginTop:10
-                                // fontFamily:'Itim',
-                            }}>
-                                <a href='https://www.sab.ac.lk/' target='_blank'>
-                                    Wildlife Tourism Resources Development: A Case Study of Beijing Wildlife Park
-                                </a>
-                            </div>
-                            <div data-aos="fade-up" data-aos-offset="100" style={{
-                                fontSize: 15,
-                                textAlign: 'left',
-                                wordSpacing: 3,
-                                paddingTop: 3,
-                                paddingBottom: 15,
-                                color: 'black',
-                                // fontWeight:"bold"
-                                // marginTop:10
-                                // fontFamily:'Itim',
-                            }}>
-                                Duoduo Wang and Michael Luck
-                            </div>
+                        <Articles/>
 
-
-
-                            <hr data-aos="fade-up" data-aos-offset="100" />
-                            <div data-aos="fade-up" data-aos-offset="100" style={{
-                                fontSize: 15,
-                                textAlign: 'left',
-                                wordSpacing: 3,
-                                paddingTop: 5,
-                                paddingBottom: 0,
-                                color: 'black',
-                                fontWeight:"bold"
-                                // marginTop:10
-                                // fontFamily:'Itim',
-                            }}>
-                                <a href='https://www.sab.ac.lk/' target='_blank'>
-                                    Wildlife Tourism Resources Development: A Case Study of Beijing Wildlife Park
-                                </a>
-                            </div>
-                            <div data-aos="fade-up" data-aos-offset="100" style={{
-                                fontSize: 15,
-                                textAlign: 'left',
-                                wordSpacing: 3,
-                                paddingTop: 3,
-                                paddingBottom: 15,
-                                color: 'black',
-                                // fontWeight:"bold"
-                                // marginTop:10
-                                // fontFamily:'Itim',
-                            }}>
-                                Duoduo Wang and Michael Luck
-                            </div>
-
-
-
-                            <hr data-aos="fade-up" data-aos-offset="100" />
-                            <div data-aos="fade-up" data-aos-offset="100" style={{
-                                fontSize: 15,
-                                textAlign: 'left',
-                                wordSpacing: 3,
-                                paddingTop: 5,
-                                paddingBottom: 0,
-                                color: 'black',
-                                fontWeight:"bold"
-                                // marginTop:10
-                                // fontFamily:'Itim',
-                            }}>
-                                <a href='https://www.sab.ac.lk/' target='_blank'>
-                                    Wildlife Tourism Resources Development: A Case Study of Beijing Wildlife Park
-                                </a>
-                            </div>
-                            <div data-aos="fade-up" data-aos-offset="100" style={{
-                                fontSize: 15,
-                                textAlign: 'left',
-                                wordSpacing: 3,
-                                paddingTop: 3,
-                                paddingBottom: 15,
-                                color: 'black',
-                                // fontWeight:"bold"
-                                // marginTop:10
-                                // fontFamily:'Itim',
-                            }}>
-                                Duoduo Wang and Michael Luck
-                            </div>
-
-
-                            <hr data-aos="fade-up" data-aos-offset="100" />
-                            <div data-aos="fade-up" data-aos-offset="100" style={{
-                                fontSize: 15,
-                                textAlign: 'left',
-                                wordSpacing: 3,
-                                paddingTop: 5,
-                                paddingBottom: 0,
-                                color: 'black',
-                                fontWeight:"bold"
-                                // marginTop:10
-                                // fontFamily:'Itim',
-                            }}>
-                                <a href='https://www.sab.ac.lk/' target='_blank'>
-                                    Wildlife Tourism Resources Development: A Case Study of Beijing Wildlife Park
-                                </a>
-                            </div>
-                            <div data-aos="fade-up" data-aos-offset="100" style={{
-                                fontSize: 15,
-                                textAlign: 'left',
-                                wordSpacing: 3,
-                                paddingTop: 3,
-                                paddingBottom: 15,
-                                color: 'black',
-                                // fontWeight:"bold"
-                                // marginTop:10
-                                // fontFamily:'Itim',
-                            }}>
-                                Duoduo Wang and Michael Luck
-                            </div>
-                        </Container>
 
 
                     </Col>

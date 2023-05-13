@@ -66,7 +66,7 @@ function journalStructure() {
                         <tr>
                             <td>Editor in Chief</td>
                             <td>
-                                Dr. H A M A Hapugoda
+                                Dr. HAMA Hapugoda
                             </td>
                         </tr>
                         <tr>
@@ -79,7 +79,7 @@ function journalStructure() {
                             <td>Editorial Executive </td>
                             <td>
                                 Prof. Hiniduma Sunil Senevi<br/>
-                                Senior Lecturer, Dept. of Languages, Sabaragamuwa University of Sri Lanka
+                                Dept. of Languages, Sabaragamuwa University of Sri Lanka
                                 <br/>
                                 <br/>
                                 Dr.  Rohan Abeywickrama<br/>
