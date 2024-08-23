@@ -5,10 +5,10 @@ import Nav from '../components/nav.component';
 import Footer from '../components/footer.component'
 import {Row,Col,Container} from 'reactstrap';
 import {Table} from "react-bootstrap";
-import {Colors} from '../constants/colors';
-import NewArticlesComponent from '../components/newArticles.components';
+import {Colors} from '../constants/colors'
+import Articles from '../components/articles.component'
 
-function currentIssue() {
+function previousIssue() {
     return (
         <div className="CurrentIssue">
             {/*<Nav/>*/}
@@ -22,7 +22,7 @@ function currentIssue() {
                     <Col md="5" xs="12" style={{background:"white"}}>
                         <Container>
                             <Row style={{paddingTop: 80}}>
-                                <NewArticlesComponent/>
+                                <Articles/>
                             </Row>
                         </Container>
 
@@ -87,4 +87,4 @@ function currentIssue() {
     );
 }
 
-export default currentIssue;
+export default previousIssue;
