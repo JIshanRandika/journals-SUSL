@@ -48,16 +48,17 @@ export default function NavComponent() {
                                         </Nav.Link>
                                         {/*<Nav.Link href="#action2">Current</Nav.Link>*/}
                                         <NavDropdown style={{fontWeight:"bold",color:"#ffffff"}} title="Issues" id="navbarScrollingDropdown">
+                                        <NavDropdown.Item>
+                                                <Link onClick={() => handleClick('a')} to="/currentIssue" style={{textDecoration:'none',color:"#524930"}}>
+                                                Volume I Issue II
+                                                </Link>
+                                            </NavDropdown.Item>
                                             <NavDropdown.Item>
                                                 <Link onClick={() => handleClick('a')} to="/previousIssue" style={{textDecoration:'none',color:"#524930"}}>
-                                                    Previous Issue
+                                                Volume I Issue I
                                                 </Link>
                                             </NavDropdown.Item>
-                                            <NavDropdown.Item>
-                                                <Link onClick={() => handleClick('a')} to="/currentIssue" style={{textDecoration:'none',color:"#524930"}}>
-                                                    Current Issue
-                                                </Link>
-                                            </NavDropdown.Item>
+                                            
                                             
                                         </NavDropdown>
                                         <NavDropdown style={{fontWeight:"bold"}} color='white' title="Editorial Board" id="navbarScrollingDropdown">

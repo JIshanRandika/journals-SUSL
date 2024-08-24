@@ -19,7 +19,7 @@ export default class NewArticlesComponent extends Component {
                     // marginTop:10
                     // fontFamily:'Itim',
                 }}>
-                    Volume II | Issue I
+                    Volume I | Issue II
                 </div>
 
                 <hr data-aos="fade-up" data-aos-offset="100" />
