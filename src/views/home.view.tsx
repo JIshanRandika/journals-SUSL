@@ -33,6 +33,7 @@ import {Colors} from '../constants/colors'
 // @ts-ignore
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import NewArticlesComponent from '../components/newArticles.components';
 
 function Home() {
     AOS.init({
@@ -50,7 +51,7 @@ function Home() {
                 <Row>
                     <Col md="4" xs="12" style={{alignItems:'center'}}>
                         <div data-aos="fade-up" data-aos-offset="100" style={{alignContent:"center",alignItems:'center',display:"flex",justifyContent:"center",padding:100}}>
-                            <img src="assets/img/cover.png" width='300px' style={{boxShadow: '0px 0px 6px #115b84'}}/>
+                            <img src="assets/img/LOGOS-Cover-Issue-II.jpg" width='300px' style={{boxShadow: '0px 0px 6px #115b84'}}/>
                         </div>
                     </Col>
                     <Col md="5" xs="12" style={{background:"white"}}>
@@ -168,11 +169,12 @@ function Home() {
 
                     </Col>
                 </Row>
+                
                 <Row style={{paddingBottom:50}}>
                     <Col md="4" xs="12" style={{alignItems:'center'}}>
                     </Col>
                     <Col md="5" xs="12" style={{alignItems:'center'}}>
-                        <Articles/>
+                        <NewArticlesComponent/>
 
 
 

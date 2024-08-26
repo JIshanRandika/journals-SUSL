@@ -12,7 +12,9 @@ import PublicationEthics from './views/publicationEthics.view';
 import Login from './views/login.view';
 import MySubmission from './views/mySubmission.view';
 import NewSubmission from './views/newSubmission.view';
+import PreviousIssue from './views/previousIssue.view';
 import CurrentIssue from './views/currentIssue.view';
+// import newCurrentIssue from './views/newCurrentIssue.view';
 import AboutUs from './views/aboutUs.view';
 import ContactUs from './views/contactUs.view';
 import reportWebVitals from './reportWebVitals';
@@ -63,6 +65,8 @@ render(
             <Route path="/mySubmission" element={<MySubmission/>}>
             </Route>
             <Route path="/newSubmission" element={<NewSubmission/>}>
+            </Route>
+            <Route path="/previousIssue" element={<PreviousIssue/>}>
             </Route>
             <Route path="/currentIssue" element={<CurrentIssue/>}>
             </Route>
